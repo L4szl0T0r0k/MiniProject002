@@ -18,5 +18,59 @@ section {
   left: -50%;
   width: 100%;
   height: 100vh;
-  background: #03a9f4;
+  box-shadow: 20px 0 10px rgba(0, 0, 0, .35);
+}
+
+.layer1 {
+    background: red;
+    transform: skewX(-45deg) translateX(0);
+    z-index: 1;
+}
+
+.layer2 {
+    background: white;
+    transform: skewX(-45deg) translateX(-150px);
+    z-index: 3;
+}
+
+.layer3 {
+    background: green;
+    transform: skewX(-45deg) translateX(-300px);
+    z-index: 5;
+}
+
+.layer4 {
+    background: #222;
+    transform: skewX(-45deg) translateX(-450px);
+    z-index: 10;
+}
+
+.layer5 {
+    background: green;
+    transform: skewX(45deg) translateX(0px);
+    z-index: 2;
+}
+
+.layer6 {
+    background: white;
+    transform: skewX(45deg) translateX(-150px);
+    z-index: 4;
+}
+
+.layer7 {
+    background: red;
+    transform: skewX(45deg) translateX(-300px);
+    z-index: 6;
+}
+
+.layer8 {
+    background: #222;
+    transform: skewX(45deg) translateX(-450px);
+    z-index: 8;
+}
+
+.layer9 {
+    background: transparent;
+    transform: skewX(45deg) translateX(-450px);
+    z-index: 10;
 }
